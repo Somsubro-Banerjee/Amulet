@@ -13,7 +13,7 @@ fn main() {
     gl_attr.set_context_version(4, 1);
 
     let window = video_subsystem
-        .window("OPEN GL TEST", 900, 700)
+        .window("OPEN GL TEST WINDOW", 900, 700)
         .opengl()
         .resizable()
         .build()
